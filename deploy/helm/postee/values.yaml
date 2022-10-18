@@ -221,6 +221,7 @@ uiService:
 
 ingress:
   enabled: false
+  pathType: ImplementationSpecific
   annotations: {}
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
