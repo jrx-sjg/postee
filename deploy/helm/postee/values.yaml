@@ -215,7 +215,7 @@ service:
   targetPort: 8082
 
 uiService:
-  type: LoadBalancer
+  type: ClusterIP
   port: 8000
   targetPort: 8000
 
